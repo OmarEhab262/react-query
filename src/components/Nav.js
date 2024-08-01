@@ -12,6 +12,7 @@ const Nav = () => {
           <NavLink to="/paginationPage">PaginationPage</NavLink>
           <NavLink to="/loadMore">LoadMore</NavLink>
           <NavLink to="/addusertwo">Add User Two</NavLink>
+          <NavLink to="/nametwo">Name Two</NavLink>
         </ul>
       </nav>
     </>

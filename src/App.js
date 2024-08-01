@@ -1,5 +1,7 @@
+// App.js
+import React from "react";
 import { RouterProvider } from "react-router-dom";
-import routes from "./router";
+import routes from "./router"; // Ensure this is the correct path to your routes
 import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 import { Toaster } from "react-hot-toast";

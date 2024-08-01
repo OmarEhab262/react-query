@@ -12,6 +12,7 @@ import Details from "../components/Details";
 import PaginationPage from "../components/PaginationPage";
 import LoadMore from "../components/LoadMore";
 import AddUserTwo from "../components/AddUserTwo";
+import { NameTwo } from "../components/NameTwo";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
         <Route path="name" element={<Name />} />
+        <Route path="nametwo" element={<NameTwo />} />
         <Route path="username" element={<UserName />} />
         <Route path="adduser" element={<AddUser />} />
         <Route path="paginationPage" element={<PaginationPage />} />
